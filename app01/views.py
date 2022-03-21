@@ -40,7 +40,7 @@ def news(request):
     # 向地址：http://www.chinaunicom.com.cn/api/article/NewsByIndex/2/2022/03/news
     # 第三方模块：request
     import requests
-    res = requests.get("http://www.chinaunicom.com.cn/api/article/NewsByIndex/2/2022/03/news",
+    res = requests.get("http://www.chinaunicom.com.cn/api/article/NewsByIndex/1/2022/03/news",
                        headers={'user-agent': 'Mozilla/5.0'})
     data_list = res.json()
 
